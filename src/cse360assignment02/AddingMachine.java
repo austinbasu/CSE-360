@@ -1,22 +1,19 @@
 package cse360assignment02;
 
-/*
-
-Name: Austin Buford
-Class: CSE 360
-
- */
-
-/*
-
-Use the normal operators for the operations (+, -).
-here is no limit on the size of the String returned.
-The format of the String should separate all operations and values with a space.
+/**
+ * Austin Buford
+ * CSE 360
+ * Assignment 1
  */
 
 public class AddingMachine {
 
     private int total;
+
+    /**
+     * Constructs an adding machine
+     * The total is the int that the actions are added or subtracted from
+     */
 
     public AddingMachine ()
     {
@@ -25,41 +22,64 @@ public class AddingMachine {
 
     }
 
+    /**
+     * Returns the int total when called
+     */
+
     public int getTotal ()
     {
 
-        //The getTotal method should return the current total
         return 0;
 
     }
 
+    /**
+     * Adds a value to the total and adds to the operation string
+     * Operation string is a string that prints all operations performed
+     *
+     * @param value is the value passed into the add function that is added to the total
+     */
+
     public void add (int value)
     {
 
-        //The add method should add the parameter to the total variable
+
 
     }
+
+    /**
+     * subtracts a value to the total and adds to the operation string
+     * Operation string is a string that prints all operations performed
+     *
+     * @param value is the value passed into the subtract function that is subtracted from the total
+     */
 
     public void subtract (int value)
     {
 
-        //The subtract method should subtract the parameter from the total variable
+
 
     }
+
+    /**
+     * Prints the final operation string
+     * Operation string is a string that prints all operations performed
+     */
 
     public String toString ()
     {
 
-        //A history of the transactions must be kept to be returned by the toString method.
-        //The history should start from the initial 0 value to the last input.
         return "";
 
     }
 
+    /**
+     * Resets the values to their original values
+     */
+
     public void clear()
     {
 
-        //The clear method should clear your "memory".
 
     }
 }
