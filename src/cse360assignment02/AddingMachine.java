@@ -6,8 +6,6 @@ package cse360assignment02;
  * Assignment 1
  */
 
-// Before edit
-
 public class AddingMachine {
 
     private int total;
